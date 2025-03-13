@@ -8,3 +8,14 @@
 /Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Release/netstandard2.0/Sun.SourceGenerator.csproj.CoreCompileInputs.cache
 /Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Release/netstandard2.0/Sun.SourceGenerator.dll
 /Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Release/netstandard2.0/Sun.SourceGenerator.pdb
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\bin\Release\netstandard2.0\Sun.SourceGenerator.deps.json
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\bin\Release\netstandard2.0\Sun.SourceGenerator.dll
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\bin\Release\netstandard2.0\Sun.SourceGenerator.pdb
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.csproj.AssemblyReference.cache
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.AssemblyInfoInputs.cache
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.AssemblyInfo.cs
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.csproj.CoreCompileInputs.cache
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.sourcelink.json
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.dll
+E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Release\netstandard2.0\Sun.SourceGenerator.pdb

@@ -35,9 +35,18 @@ namespace Sun.SourceGenerator.Generator
                     continue;
 
                 var attributes = classSymbol.GetAttributes();
-                
-                AttributeData attribute = attributes.FirstOrDefault(a => a.AttributeClass?.Name == nameof(CacheAttribute));
 
+                AttributeData attribute = null;//attributes.FirstOrDefault(a => a.AttributeClass?.Name == nameof(CacheAttribute));
+
+                foreach (var v in attributes)
+                {
+                    if (v.AttributeClass.Name == nameof(CacheAttribute))
+                    {
+                        attribute = v;
+                        break;
+                    }
+                }
+                
                 if (attribute == null) continue;
                 
                 var list = attribute.ConstructorArguments.ToList();

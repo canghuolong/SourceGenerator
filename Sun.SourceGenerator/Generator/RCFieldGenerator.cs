@@ -66,7 +66,7 @@ public class RCGenerator : ISourceGenerator
                 .ToList();
             
 
-            var source = GenerateClassCode(classSymbol, members,originalUsings);
+            var source = GenerateClassCode(classSymbol, members,originalUsings,classDecl.Modifiers);
             context.AddSource($"{classSymbol.Name}_RC.g.cs", SourceText.From(source, Encoding.UTF8));
         }
     }
@@ -106,7 +106,8 @@ public class RCGenerator : ISourceGenerator
         return members;
     }
 
-    private string GenerateClassCode(INamedTypeSymbol classSymbol, List<MemberInfo> members,List<UsingDirectiveSyntax> originalUsings)
+    private string GenerateClassCode(INamedTypeSymbol classSymbol, List<MemberInfo> members,List<UsingDirectiveSyntax> originalUsings,
+        SyntaxTokenList classModifiers)
     {
         var ns = classSymbol.ContainingNamespace.ToDisplayString();
         var className = classSymbol.Name;
@@ -117,14 +118,17 @@ public class RCGenerator : ISourceGenerator
         {
             sb.AppendLine(usingDirective.ToFullString().Trim());
         }
+        
 
         if (!classSymbol.ContainingNamespace.IsGlobalNamespace)
         {
             sb.AppendLine($"namespace {ns}\n{{");
         }
+
+        var modifiers = string.Join(" ", classModifiers.Select(m => m.Text));
         
         sb.AppendLine($@"
-    public partial class {className}
+    {modifiers} class {className}
     {{
         public void LoadFromRC(ReferenceCollector rc)
         {{");
@@ -184,13 +188,19 @@ internal class SyntaxReceiver : ISyntaxReceiver
         }
 
         var members = classDecl.Members;
-        var firstMember = members.FirstOrDefault(m => m is FieldDeclarationSyntax or PropertyDeclarationSyntax);
-        if (firstMember == null) return;
-        var list = firstMember.AttributeLists;
-
-        if (list.Count > 0)
+        foreach (var v in members)
         {
-            CandidateClasses.Add(classDecl);
+            if (v is FieldDeclarationSyntax or PropertyDeclarationSyntax)
+            {
+                if (v.AttributeLists.Count > 0)
+                {
+                    if (!CandidateClasses.Contains(classDecl))
+                    {
+                        CandidateClasses.Add(classDecl);    
+                    }
+                    break;
+                }
+            }
         }
     }
 }

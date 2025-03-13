@@ -3,7 +3,7 @@
   "profiles": {
     "Sun.SourceGenerator": {
       "commandName": "DebugRoslynComponent",
-      "targetProject": "../TestSourceGenerators/TestSourceGenerators/TestSourceGenerators.csproj",
+      "targetProject": "E:\\workspace_new\\GameX_New\\Unity\\Game.Hotfix.csproj",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
         "OTHER_VARIABLE": "value"

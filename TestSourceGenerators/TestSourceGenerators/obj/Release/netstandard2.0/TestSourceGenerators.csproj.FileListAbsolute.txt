@@ -11,3 +11,11 @@
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/bin/Release/netstandard2.0/Sun.SourceGenerator.dll
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/bin/Release/netstandard2.0/Sun.SourceGenerator.pdb
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Release/netstandard2.0/TestSour.2CBAE7C9.Up2Date
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.csproj.AssemblyReference.cache
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.GeneratedMSBuildEditorConfig.editorconfig
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.AssemblyInfoInputs.cache
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.AssemblyInfo.cs
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.csproj.CoreCompileInputs.cache
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.sourcelink.json
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.dll
+E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Release\netstandard2.0\TestSourceGenerators.pdb

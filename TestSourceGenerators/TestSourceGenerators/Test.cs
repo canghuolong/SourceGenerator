@@ -1,19 +1,32 @@
 using Sun.SourceGenerator.Attributes;
-namespace TestSourceGenerators;
 
-// [Cache(nameof(TestComp))]
-public partial class Test
+namespace TestSourceGenerators
 {
-    [RC]
-    public TestComp testComp;
-
-    void A()
+    // [Cache(nameof(TestComp))]
+    public partial class Test
     {
+        [RC]
+        public TestComp testComp;
+
+        void A()
+        {
         
+        }
+    }
+
+    public class TestComp
+    {
+    
     }
 }
 
-public class TestComp
+
+
+namespace Game.Hotfix
 {
-    
+    [Cache(nameof(TestComp))]
+    public partial class C
+    {
+        
+    }
 }
