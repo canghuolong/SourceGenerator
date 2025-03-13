@@ -1,0 +1,8 @@
+
+Œcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(¨Óª¢8ÄöğØ2J$cc9d89a6-e734-410c-bc43-56a4d2fd1e14
+Ècsharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(³´úûúÿÿÿÿ8ÅöğØ2J$e6f2e73c-c138-43db-b144-1dbcb046a75d
+mcsharpsquid:S2326"'T' is not used in the method.(š‡¬Áşÿÿÿÿ8ÅöğØ2J$3e2e8e88-ced2-42bc-baeb-1c1c3159c3d9
+`csharpsquid:S3459"7Remove unassigned field 'gameObject', or set its value.(ÁãÒùÿÿÿÿ8ƒë©ñØ2
+tcsharpsquid:S1144"%Remove the unused private method 'A'.(³´úûúÿÿÿÿ8ÅöğØ2J$bfaf79ce-2526-4c81-b592-79102f8d2f80
+hcsharpsquid:S125
+"Remove this commented out code.(à‰É¡8ÅöğØ2J$68464724-d66c-4e1f-8039-5b00e358db19

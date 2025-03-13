@@ -1,0 +1,5 @@
+/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.csproj.AssemblyReference.cache
+/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.AssemblyInfoInputs.cache
+/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.AssemblyInfo.cs
+/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.csproj.CoreCompileInputs.cache

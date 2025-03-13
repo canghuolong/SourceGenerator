@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Sun.SourceGenerator": {
+      "commandName": "DebugRoslynComponent",
+      "targetProject": "../TestSourceGenerators/TestSourceGenerators/TestSourceGenerators.csproj",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "OTHER_VARIABLE": "value"
+      }
+    }
+  }
+}

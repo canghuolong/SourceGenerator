@@ -1,0 +1,10 @@
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/bin/Debug/netstandard2.0/Sun.SourceGenerator.deps.json
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/bin/Debug/netstandard2.0/Sun.SourceGenerator.dll
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/bin/Debug/netstandard2.0/Sun.SourceGenerator.pdb
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.csproj.AssemblyReference.cache
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.AssemblyInfoInputs.cache
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.AssemblyInfo.cs
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.csproj.CoreCompileInputs.cache
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.dll
+/Users/shubinsun/Desktop/SGProj/Share/Sun.SourceGenerator/obj/Debug/netstandard2.0/Sun.SourceGenerator.pdb

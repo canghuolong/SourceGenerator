@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zIlTSdhhSIg=",
+  "success": true,
+  "projectFilePath": "/Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators.Sample/TestSourceGenerators.Sample.csproj",
+  "expectedPackageFiles": [
+    "/Users/shubinsun/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/Users/shubinsun/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = TestSourceGenerators
+build_property.ProjectDir = E:\SunSpace\Sun.SourceGenerator\TestSourceGenerators\TestSourceGenerators\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
