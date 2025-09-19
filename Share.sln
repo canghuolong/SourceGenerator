@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sun.SourceGenerator", "Sun.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSourceGenerators", "TestSourceGenerators\TestSourceGenerators\TestSourceGenerators.csproj", "{1E31FCE4-01CE-42AC-B780-5AEFD5734402}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotfixAnalyzer", "HotfixAnalyzer\HotfixAnalyzer.csproj", "{90BD525B-7250-43CB-BC9D-F83C7D1B7EF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{1E31FCE4-01CE-42AC-B780-5AEFD5734402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E31FCE4-01CE-42AC-B780-5AEFD5734402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E31FCE4-01CE-42AC-B780-5AEFD5734402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BD525B-7250-43CB-BC9D-F83C7D1B7EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BD525B-7250-43CB-BC9D-F83C7D1B7EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BD525B-7250-43CB-BC9D-F83C7D1B7EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BD525B-7250-43CB-BC9D-F83C7D1B7EF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

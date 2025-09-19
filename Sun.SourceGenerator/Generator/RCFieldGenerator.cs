@@ -119,28 +119,50 @@ public class RCGenerator : ISourceGenerator
             sb.AppendLine(usingDirective.ToFullString().Trim());
         }
         
+        // 如果有外部类型，则需要生成嵌套结构
+        var containingTypes = new List<INamedTypeSymbol>();
+        var current = classSymbol.ContainingType;
+        while (current != null)
+        {
+            containingTypes.Add(current);
+            current = current.ContainingType;
+        }
+        containingTypes.Reverse();
 
         if (!classSymbol.ContainingNamespace.IsGlobalNamespace)
         {
             sb.AppendLine($"namespace {ns}\n{{");
         }
 
+        // 为所有外部类型生成开始括号
+        foreach (var containingType in containingTypes)
+        {
+            sb.AppendLine($"    partial class {containingType.Name}\n    {{");
+        }
+
         var modifiers = string.Join(" ", classModifiers.Select(m => m.Text));
         
         sb.AppendLine($@"
-    {modifiers} class {className}
-    {{
-        public void LoadFromRC(ReferenceCollector rc)
-        {{");
+        {modifiers} class {className}
+        {{
+            public void LoadFromRC(ReferenceCollector rc)
+            {{");
 
         foreach (var member in members)
         {
             var assignment = GenerateAssignment(member);
-            sb.AppendLine($"            {assignment}");
+            sb.AppendLine($"                {assignment}");
         }
 
-        sb.AppendLine(@"        }
-    }");
+        sb.AppendLine(@"            }
+        }");
+        
+        // 为所有外部类型生成结束括号（逆序）
+        for (int i = 0; i < containingTypes.Count; i++)
+        {
+            sb.AppendLine("    }");
+        }
+        
         if (!classSymbol.ContainingNamespace.IsGlobalNamespace)
         {
             sb.AppendLine("}");

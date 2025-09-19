@@ -1,0 +1,11 @@
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\bin\Release\netstandard2.0\HotfixAnalyzer.deps.json
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\bin\Release\netstandard2.0\HotfixAnalyzer.dll
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\bin\Release\netstandard2.0\HotfixAnalyzer.pdb
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.csproj.AssemblyReference.cache
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.AssemblyInfoInputs.cache
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.AssemblyInfo.cs
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.csproj.CoreCompileInputs.cache
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.sourcelink.json
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.dll
+E:\SunSpace\Sun.SourceGenerator\HotfixAnalyzer\obj\Release\netstandard2.0\HotfixAnalyzer.pdb
