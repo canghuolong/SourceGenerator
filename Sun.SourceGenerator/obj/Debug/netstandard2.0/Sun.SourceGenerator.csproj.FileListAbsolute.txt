@@ -19,3 +19,14 @@ E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun
 E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.sourcelink.json
 E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.dll
 E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.pdb
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\bin\Debug\netstandard2.0\Sun.SourceGenerator.deps.json
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\bin\Debug\netstandard2.0\Sun.SourceGenerator.dll
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\bin\Debug\netstandard2.0\Sun.SourceGenerator.pdb
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.csproj.AssemblyReference.cache
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.AssemblyInfoInputs.cache
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.AssemblyInfo.cs
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.csproj.CoreCompileInputs.cache
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.sourcelink.json
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.dll
+D:\sun_studio\SourceGenerator\Sun.SourceGenerator\obj\Debug\netstandard2.0\Sun.SourceGenerator.pdb

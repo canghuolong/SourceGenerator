@@ -287,6 +287,19 @@
         "runtime": {
           "bin/placeholder/Sun.SourceGenerator.dll": {}
         }
+      },
+      "Sun.SourceGenerator.RC/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "3.8.0"
+        },
+        "compile": {
+          "bin/placeholder/Sun.SourceGenerator.RC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sun.SourceGenerator.RC.dll": {}
+        }
       }
     }
   },
@@ -879,28 +892,34 @@
       "type": "project",
       "path": "../../Sun.SourceGenerator/Sun.SourceGenerator.csproj",
       "msbuildProject": "../../Sun.SourceGenerator/Sun.SourceGenerator.csproj"
+    },
+    "Sun.SourceGenerator.RC/1.0.0": {
+      "type": "project",
+      "path": "../../Sun.SourceGenerator.RC/Sun.SourceGenerator.RC.csproj",
+      "msbuildProject": "../../Sun.SourceGenerator.RC/Sun.SourceGenerator.RC.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Sun.SourceGenerator >= 1.0.0"
+      "Sun.SourceGenerator >= 1.0.0",
+      "Sun.SourceGenerator.RC >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s\\.nuget\\packages\\": {}
+    "C:\\Users\\jxqy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\SunSpace\\Sun.SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\TestSourceGenerators.csproj",
+      "projectUniqueName": "D:\\sun_studio\\SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\TestSourceGenerators.csproj",
       "projectName": "TestSourceGenerators",
-      "projectPath": "E:\\SunSpace\\Sun.SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\TestSourceGenerators.csproj",
-      "packagesPath": "C:\\Users\\s\\.nuget\\packages\\",
-      "outputPath": "E:\\SunSpace\\Sun.SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\obj\\",
+      "projectPath": "D:\\sun_studio\\SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\TestSourceGenerators.csproj",
+      "packagesPath": "C:\\Users\\jxqy\\.nuget\\packages\\",
+      "outputPath": "D:\\sun_studio\\SourceGenerator\\TestSourceGenerators\\TestSourceGenerators\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jxqy\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -912,8 +931,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "E:\\SunSpace\\Sun.SourceGenerator\\Sun.SourceGenerator\\Sun.SourceGenerator.csproj": {
-              "projectPath": "E:\\SunSpace\\Sun.SourceGenerator\\Sun.SourceGenerator\\Sun.SourceGenerator.csproj"
+            "D:\\sun_studio\\SourceGenerator\\Sun.SourceGenerator.RC\\Sun.SourceGenerator.RC.csproj": {
+              "projectPath": "D:\\sun_studio\\SourceGenerator\\Sun.SourceGenerator.RC\\Sun.SourceGenerator.RC.csproj"
+            },
+            "D:\\sun_studio\\SourceGenerator\\Sun.SourceGenerator\\Sun.SourceGenerator.csproj": {
+              "projectPath": "D:\\sun_studio\\SourceGenerator\\Sun.SourceGenerator\\Sun.SourceGenerator.csproj"
             }
           }
         }
@@ -927,7 +949,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "netstandard2.0": {
@@ -951,7 +974,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\jxqy\\.dotnet\\sdk\\10.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

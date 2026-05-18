@@ -3,3 +3,9 @@
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.AssemblyInfoInputs.cache
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.AssemblyInfo.cs
 /Users/shubinsun/Desktop/SGProj/Share/TestSourceGenerators/TestSourceGenerators/obj/Debug/netstandard2.0/TestSourceGenerators.csproj.CoreCompileInputs.cache
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.csproj.AssemblyReference.cache
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.GeneratedMSBuildEditorConfig.editorconfig
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.AssemblyInfoInputs.cache
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.AssemblyInfo.cs
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.csproj.CoreCompileInputs.cache
+D:\sun_studio\SourceGenerator\TestSourceGenerators\TestSourceGenerators\obj\Debug\netstandard2.0\TestSourceGenerators.sourcelink.json

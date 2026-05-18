@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet build *)",
+      "Bash(winget *)",
+      "Bash(C:\\\\Program Files\\\\dotnet\\\\dotnet.exe *)",
+      "Bash(\"C:\\\\Program Files\\\\dotnet\\\\dotnet.exe\" build Share.sln)",
+      "Bash(dir D:sun_studioSourceGenerator *)"
+    ]
+  }
+}

@@ -1,5 +1,8 @@
 is_global = true
 build_property.RootNamespace = Sun.SourceGenerator
-build_property.ProjectDir = E:\SunSpace\Sun.SourceGenerator\Sun.SourceGenerator\
+build_property.ProjectDir = D:\sun_studio\SourceGenerator\Sun.SourceGenerator\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

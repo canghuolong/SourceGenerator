@@ -24,10 +24,12 @@
     
     <ItemGroup>
         <Analyzer Include="..\..\Sun.SourceGenerator\bin\Debug\netstandard2.0\Sun.SourceGenerator.dll" />
+        <Analyzer Include="..\..\Sun.SourceGenerator.RC\bin\Debug\netstandard2.0\Sun.SourceGenerator.RC.dll" />
     </ItemGroup>
-    
+
     <ItemGroup>
       <ProjectReference Include="..\..\Sun.SourceGenerator\Sun.SourceGenerator.csproj" />
+      <ProjectReference Include="..\..\Sun.SourceGenerator.RC\Sun.SourceGenerator.RC.csproj" />
     </ItemGroup>
 
     <ItemGroup>
