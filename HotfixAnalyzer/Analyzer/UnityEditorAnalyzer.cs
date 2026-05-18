@@ -16,6 +16,15 @@ namespace Sun.SourceGenerator.Generator
             isEnabledByDefault: true,
             description: "在源代码生成器项目中不应引用UnityEditor命名空间。"
         );
+        private static readonly DiagnosticDescriptor Rule2 = new(
+            "UE002",
+            "DG.DemiEditor引用检查",
+            "检测到代码中使用了DG.DemiEditor: '{0}'",
+            "Unity",
+            DiagnosticSeverity.Error,
+            isEnabledByDefault: true,
+            description: "在源代码生成器项目中不应引用DG.DemiEditor命名空间。"
+        );
 
         public void Initialize(GeneratorInitializationContext context)
         {
@@ -41,6 +50,14 @@ namespace Sun.SourceGenerator.Generator
                 {
                     var diagnostic = Diagnostic.Create(
                         Rule,
+                        usingDirective.GetLocation(),
+                        name
+                    );
+                    context.ReportDiagnostic(diagnostic);
+                }else if (name.StartsWith("DG.DemiEditor"))
+                {
+                    var diagnostic = Diagnostic.Create(
+                        Rule2,
                         usingDirective.GetLocation(),
                         name
                     );

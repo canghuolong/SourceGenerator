@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sun.SourceGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3d0c6c6d75af744923fdfe45fc6e40f62393112c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4efd3e52d32b4d683a8fae2584a98e29940052ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sun.SourceGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sun.SourceGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
