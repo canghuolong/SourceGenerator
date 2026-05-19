@@ -173,13 +173,17 @@ public class RCGenerator : ISourceGenerator
 
     private string GenerateAssignment(MemberInfo member)
     {
-        var typeName = GetTypeDisplayString(member.Type);
-        if (string.IsNullOrEmpty(member.ConfigKey))
+        var key = string.IsNullOrEmpty(member.ConfigKey) ? member.Name : member.ConfigKey;
+
+        // T[] —— 走 GetArray 一次性拿到强类型数组
+        if (member.Type is IArrayTypeSymbol arrayType)
         {
-            return $"{member.Name} = rc.Get<{typeName}>(\"{member.Name}\");";
+            var elemType = GetTypeDisplayString(arrayType.ElementType);
+            return $"{member.Name} = rc.GetArray<{elemType}>(\"{key}\");";
         }
 
-        return $"{member.Name} = rc.Get<{typeName}>(\"{member.ConfigKey}\");";
+        var typeName = GetTypeDisplayString(member.Type);
+        return $"{member.Name} = rc.Get<{typeName}>(\"{key}\");";
     }
 
     private string GetTypeDisplayString(ITypeSymbol typeSymbol)

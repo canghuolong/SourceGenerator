@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TestSourceGenerators")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c14fac90145862450d4976364039866373c471fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b2fd1a03e41391e80190ae6fd45f7b98c978ff9")]
 [assembly: System.Reflection.AssemblyProductAttribute("TestSourceGenerators")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TestSourceGenerators")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
